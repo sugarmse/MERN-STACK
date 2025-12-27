@@ -11,6 +11,5 @@ app.get('/',(req,res)=>{
 //listen for requests
 app.listen(process.env.PORT, () => {
     console.log('listening for requests on port 4000!!!',process.env.PORT);
-    console.log("test");
 })
 
